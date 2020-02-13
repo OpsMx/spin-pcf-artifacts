@@ -1,0 +1,8 @@
+---
+applications:
+  - name: test-app
+    memory: 256M
+    instances: 1
+    routes:
+    - route: test-app-thankful-monkey-uv.cfapps.io
+
